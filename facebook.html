@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FACEBOOK</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="facebook.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+     <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+     <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+    
+    
+    <style>
+        .x-box{
+            width: 400px;
+            border: none;
+            margin: auto;
+        }
+
+        .x-left-col{
+            padding-top: 150px;
+        }
+
+        /* #inp{
+          background-color: lightgray;
+        } */
+        
+
+        @media (max-width: 760px) {
+              .x-left-col{
+                  padding-top: 0px;
+              }
+              
+              .x-box{
+                  box-shadow: none !important;
+                  background-color:#F0F2F5;
+                  width: 100%;
+              }
+
+              .x-text{
+                  display: none;
+                  font-weight: bolder;
+                  color: rgb(20, 1, 1);
+                  
+              }
+
+            
+
+              .x-h1{
+                  text-align: center;
+                  font-size: 25px;
+              }
+        }
+        
+
+    </style>
+</head>
+<body style="background-color:#F0F2F5;">
+
+  <div class="container">
+      <div class="row x-left-col">
+
+          <!-- LEFT-col -->
+          <div class="col-sm pt-5">  
+             <div>
+                <h1 class="text-primary font-weight-bold display-4 x-h1">facebook</h1>
+                <p style="font-size: 30px;" class="x-text">Facebook helps you connect and share with the people in your life.</p>
+             </div>
+          </div>
+          <!-- RIGHT-col -->
+           <section class="col-sm">
+               <div>
+                  <div class="card card-body x-box shadow">  
+                     <div class="form-group">
+                         <input type="text" class="form-control form-control-lg" placeholder="Email or phone number">    
+                     </div>
+
+                     <div class="form-group">
+                         <input type="text" class="form-control form-control-lg" placeholder="Password"> 
+                     </div>
+
+                     <div class="form-group">
+                         <button class="btn btn-primary btn-lg w-100" data-toggle="modal" data-target="#">Log in</button>
+                     </div>
+
+                     <div class="form-group text-center">
+                         <a class="card-link" href="a">Forgotten password?</a> 
+                     </div>
+
+                     <hr>
+
+                     <div class="form-group text-center">
+                        <button class="btn btn-success btn--lg w-75"  data-toggle="modal" data-target="#tomy">Create New Account</button>
+                     </div>
+                  </div>
+                  <p class="mt-4 text-center"><span style="color: black; font-weight: bolder;">Create a page</span> for a celebrity, band or business.</p> 
+               </div>
+           </section>
+      </div>
+  </div>
+
+  
+  <!-- ALL MODEL -->
+  <div class="modal" id="tomy" style="background-color: rgba(225,225,225,0.8);">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Sign Up<br>
+           <div class="it" style="font-size: 16px; top:-2px; font-weight: lighter;">It's quick and easy.</div></h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+            <div class="form-group x-grp mt-3">
+                <div class="fit">
+                    <input id="inp" type="text" class="form-control form-control-lg " placeholder="First name">
+                </div>
+                <div class="sun">
+                    <input  id="inp" type="text" class="form-control form-control-lg " placeholder="Surname"> 
+                </div>   
+            </div>
+
+            <div class="form-group mt-4">
+                <input  id="inp" type="text" class="form-control form-control-lg" placeholder="Mobile number or email address">
+            </div>
+
+            <div class="form-group mt-4">
+                <input id="inp" type="text" class="form-control form-control-lg" placeholder="New password">
+            </div>
+            <!-- DATE OF BIRTH -->
+            <div>
+               <p>Date of birth<i class="fa fa-question-circle" style="margin-left: 3px;"></i></p>  
+            </div>
+            
+           <form action="" class="form-group">
+               Birthday
+               <input type="date">
+               <input type="submit">
+           </form>
+
+                
+            
+        </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>   
+</body>
+</html>

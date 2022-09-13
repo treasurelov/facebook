@@ -1,0 +1,23 @@
+.x-grp{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.fit{
+    margin-right: 20px;
+    font-weight: lighter;
+    color: gray;
+    background-color:
+}
+
+.x-check{
+    display: flex;
+    justify-content: space-between;
+    width: 35px;
+}
+
+.it{
+    color: gray;
+}
